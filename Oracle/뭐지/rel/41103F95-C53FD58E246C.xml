@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="주소록" id="41103F95-88E4-BD5F-EF32-C53FD58E246C" mainViewID="54D31FED-2B3A-5E07-674B-CE415FD048B0">
+<createdBy>KMS505106</createdBy>
+<createdTime>2024-03-15 01:22:41 UTC</createdTime>
+<ownerDesignName>뭐지</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

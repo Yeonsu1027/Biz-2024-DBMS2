@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9BB914B1-D2DD-91BC-9095-9F92F0807307" schemaObject="2214F3D3-B2CE-F4EA-E204-9C1CC4CED5E7" name="TBL_ADDR_HOBBY">
+<createdBy>KMS505106</createdBy>
+<createdTime>2024-03-15 01:22:41 UTC</createdTime>
+<ownerDesignName>뭐지</ownerDesignName>
+<importedID>B2DC8545-3566-7715-E2E0-CF462313D643</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="R_ACODE" id="87D6301D-59E1-88B2-FE44-A68C20EAE7A7">
+<createdBy>KMS505106</createdBy>
+<createdTime>2024-03-15 01:22:41 UTC</createdTime>
+<ownerDesignName>뭐지</ownerDesignName>
+<importedID>42DF009C-CE2C-AB59-0208-AF520BC4167F</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6 BYTE</dataTypeSize>
+<ownDataTypeParameters>6 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C539AB35-D2C4-D5E7-3F20-38A2D9CFBE7D" referredColumn="8C7750E9-58BF-9928-8B84-2ACA677EF43B"/>
+</associations>
+</Column>
+<Column name="R_HCODE" id="FB6FF243-2CF9-B932-4356-7FD09464FEC2">
+<createdBy>KMS505106</createdBy>
+<createdTime>2024-03-15 01:22:41 UTC</createdTime>
+<ownerDesignName>뭐지</ownerDesignName>
+<importedID>09F4A0CA-36B3-8764-E19A-1242CD76A21B</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>5 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7509F360-B013-8076-5BBA-DDDC64270A73" referredColumn="E5A4054B-B6A9-A847-7B8A-F802C25DF383"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7DE820EF-BC2D-EF4E-407F-204A70CA949B" name="AH_PK">
+<createdBy>KMS505106</createdBy>
+<createdTime>2024-03-15 01:22:41 UTC</createdTime>
+<ownerDesignName>뭐지</ownerDesignName>
+<importedID>1EAD053F-35CB-1686-CDB4-DB81E728990F</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="87D6301D-59E1-88B2-FE44-A68C20EAE7A7"/>
+<colUsage columnID="FB6FF243-2CF9-B932-4356-7FD09464FEC2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4D59C7A1-CF7A-2045-6085-7E5627E55985" schemaObject="2214F3D3-B2CE-F4EA-E204-9C1CC4CED5E7" name="AH_PK">
+<createdBy>KMS505106</createdBy>
+<createdTime>2024-03-15 01:22:41 UTC</createdTime>
+<ownerDesignName>뭐지</ownerDesignName>
+<importedID>9B65C70F-D7AC-233F-21E9-73CF77CC88E2</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="87D6301D-59E1-88B2-FE44-A68C20EAE7A7"/>
+<colUsage columnID="FB6FF243-2CF9-B932-4356-7FD09464FEC2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1D35466A-F6F5-71FD-E81A-F1047A36F3CC" name="FK_ADDR">
+<createdBy>KMS505106</createdBy>
+<createdTime>2024-03-15 01:22:41 UTC</createdTime>
+<ownerDesignName>뭐지</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="87D6301D-59E1-88B2-FE44-A68C20EAE7A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FD736469-EFCE-D7BD-B354-B4E8E78539DB" name="FK_HOBBY">
+<createdBy>KMS505106</createdBy>
+<createdTime>2024-03-15 01:22:41 UTC</createdTime>
+<ownerDesignName>뭐지</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB6FF243-2CF9-B932-4356-7FD09464FEC2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

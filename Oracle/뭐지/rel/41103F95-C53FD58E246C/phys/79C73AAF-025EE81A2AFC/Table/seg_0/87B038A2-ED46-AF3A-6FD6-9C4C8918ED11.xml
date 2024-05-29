@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="TBL_HOBBY" directorySegmentName="seg_0" id="87B038A2-ED46-AF3A-6FD6-9C4C8918ED11">
+<createdBy>KMS505106</createdBy>
+<createdTime>2024-03-15 01:22:41 UTC</createdTime>
+<ownerDesignName>뭐지</ownerDesignName>
+<schemaObject>2214F3D3-B2CE-F4EA-E204-9C1CC4CED5E7</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>63B0CFB5-324E-5B39-F467-56A48FFDE3F8</segment>
+<tableSpace>8D4D6DA6-FCB9-3729-BE77-F14C368351DD</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="H_NAME" id="D26C7EF0-8BFE-9679-011A-84CC1282802E">
+<createdBy>KMS505106</createdBy>
+<createdTime>2024-03-15 01:22:41 UTC</createdTime>
+<ownerDesignName>뭐지</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="H_REM" id="DEF1349D-B7BF-77DA-4139-29A33F13E3FE">
+<createdBy>KMS505106</createdBy>
+<createdTime>2024-03-15 01:22:41 UTC</createdTime>
+<ownerDesignName>뭐지</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="H_CODE" id="E5A4054B-B6A9-A847-7B8A-F802C25DF383">
+<createdBy>KMS505106</createdBy>
+<createdTime>2024-03-15 01:22:41 UTC</createdTime>
+<ownerDesignName>뭐지</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TBL_HOBBY_PK" id="EAD286D0-750D-78C4-D57E-120F024D243E">
+<createdBy>KMS505106</createdBy>
+<createdTime>2024-03-15 01:22:41 UTC</createdTime>
+<ownerDesignName>뭐지</ownerDesignName>
+<schemaObject>2214F3D3-B2CE-F4EA-E204-9C1CC4CED5E7</schemaObject>
+<segment>7491313F-DE34-E807-C9C2-3515F0C72D95</segment>
+<tableSpace>8D4D6DA6-FCB9-3729-BE77-F14C368351DD</tableSpace>
+<indexSegment>7491313F-DE34-E807-C9C2-3515F0C72D95</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

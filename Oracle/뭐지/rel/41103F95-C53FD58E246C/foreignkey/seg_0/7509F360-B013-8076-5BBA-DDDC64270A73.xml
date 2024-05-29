@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7509F360-B013-8076-5BBA-DDDC64270A73" containerWithKeyObject="9BB914B1-D2DD-91BC-9095-9F92F0807307" localFKIndex="FD736469-EFCE-D7BD-B354-B4E8E78539DB" name="FK_HOBBY">
+<createdBy>KMS505106</createdBy>
+<createdTime>2024-03-15 01:22:41 UTC</createdTime>
+<ownerDesignName>뭐지</ownerDesignName>
+<importedID>D1B6CC77-87A4-3A65-09BD-4036812D694F</importedID>
+<referredTableLongName>ADDRUSER.TBL_HOBBY</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>87B038A2-ED46-AF3A-6FD6-9C4C8918ED11</referredTableID>
+<keyObject>EAD286D0-750D-78C4-D57E-120F024D243E</keyObject>
+<referredKeyID>EAD286D0-750D-78C4-D57E-120F024D243E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>H_CODE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
